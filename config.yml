@@ -17,7 +17,7 @@ vagrant_gui: false
 # machine name, and IP address for each instance.
 vagrant_hostname: presales.central
 vagrant_machine_name: central
-vagrant_ip: 192.168.93.93
+vagrant_ip: 0.0.0.0
 
 # Allow Drupal VM to be accessed via a public network interface on your host.
 # Vagrant boxes are insecure by default, so be careful. You've been warned!
