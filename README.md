@@ -6,29 +6,12 @@ This version of Drupal VM installs the following on an Ubuntu 16.04 (by default)
   - PHP 7.1.x (configurable)
   - MySQL 5.7.x (or MariaDB, or PostgreSQL)
   - Acquia Lightning (D8)
-  - Optional:
-    - Drupal Console
-    - Drush
-    - Varnish 4.x (configurable)
-    - Apache Solr 4.10.x (configurable)
-    - Elasticsearch
-    - Node.js 0.12 (configurable)
-    - Selenium, for testing your sites via Behat
-    - Ruby
-    - Memcached
-    - Redis
-    - SQLite
-    - Blackfire, XHProf, or Tideways for profiling your code
-    - XDebug, for debugging your code
-    - Adminer, for accessing databases directly
-    - Pimp my Log, for easy viewing of log files
-    - MailHog, for catching and debugging email
 
 It should take 5-10 minutes to build or rebuild the VM from scratch on a decent broadband connection.
 
 ## Quick Start
 
-This Quick Start will help you quickly build a Drupal 8 site on the Drupal VM using Composer.
+This Quick Start will help you quickly build a Lightning Drupal 8 site on the Drupal VM using Composer.
 
   1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. Clone this project to your workstation.
